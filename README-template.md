@@ -4,8 +4,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/vahid2072/newsletter-sign-up-form)
+- Live Site URL: [https://vahid2072.github.io/newsletter-sign-up-form/)
 
 
 ### Built with
@@ -14,12 +14,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@vahid2072](https://www.frontendmentor.io/profile/vahid2072)
 
