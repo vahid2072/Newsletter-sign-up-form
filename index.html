@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+  <div class="card">
+    <div class="container">
+      <h2>Stay updated!</h2>
+      <p class="advertisement-describtion">Join 60,000+ product managers receiving monthly updates on:</p>
+      <div class="container-par">
+        <img class="icon-list-image" src="./assets/images/icon-list.svg" alt="icon-list">
+        <p class="describtion">Product discovery and building what matters</p>
+      </div>
+      <div class="container-par">
+        <img class="icon-list-image" src="./assets/images/icon-list.svg" alt="icon-list">
+        <p class="describtion">Measuring to ensure updates are a success</p>
+      </div>
+      <div class="container-par">
+        <img class="icon-list-image" src="./assets/images/icon-list.svg" alt="icon-list">
+        <p class="describtion">And much more!</p>
+      </div>
+      <div class="label">
+        <label for="email-id" class="email">Email address</label><br>
+        <span id="error-msg">Valid email required</span>
+      </div>
+      <input type="email" placeholder="email@company.com" id="email-id" oninput="checker()">
+      <button id="submit-btn">Subscribe to monthly newsletter</button>
+    </div>
+    <img class="sign-up-desktop" src="./assets/images/illustration-sign-up-desktop.svg" alt="sign-up">
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/vahid-khani-12937426a/" target="_blank">Vahid Khani</a>.
+  </div>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

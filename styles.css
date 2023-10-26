@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --Tomato: hsl(4, 100%, 67%);
+  --Dark-Slate-Grey: hsl(234, 29%, 20%);
+  --Charcoal-Grey: hsl(235, 18%, 26%);
+  --Grey: hsl(231, 7%, 60%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--Dark-Slate-Grey);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.card {
+  width: 800px;
+  height: 600px;
+  background-color: var(--White);
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  border: 20px solid white;
+  border-radius: 30px;
+}
+
+.container {
+  width: 400px;
+  margin: 10px 20px;
+}
+
+.container h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.advertisement-describtion {
+  line-height: 1.6rem;
+  margin-bottom: 14px;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-par {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.icon-list-image {
+  margin-right: 4px;
+}
+
+.email {
+  margin-top: 30px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+#error-msg{
+  display: none;
+  color: var(--Tomato);
+  font-size: 16px;
+}
+
+input, button {
+  padding: 12px 20px;
+  width: 90%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="email"] {
+  margin: 10px 0;
+  color: var(--Grey);
+  display: inline-block;
+}
+
+input:hover {
+  color: var(--Dark-Slate-Grey);
+  opacity: 1;
+}
+
+button {
+  color: var(--White);
+  background-color: var(--Dark-Slate-Grey);
+  border: none;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: var(--Tomato);
+  box-shadow: 0px 10px 15px -3px rgba(255,98,87,0.75);
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+#error-msg {
+  margin-top: 30px;
+  margin-right: 40px;
+  font-size: 14px;
+
+}
+
+.sign-up-desktop {
+  width: 400px;
+}
+
+.success-card {
+  width: 400px;
+  height: 400px;
+  background-color: var(--White);
+  margin: 50px auto;
+  border-radius: 30px;
+  padding: 20px 40px;
+}
+
+.success-card p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.container-h2 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.icon-list-image-success {
+  width: 64px;
+  height: 64px;
+}
+
+.container-h2 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: var(--Dark-Slate-Grey);
+}
